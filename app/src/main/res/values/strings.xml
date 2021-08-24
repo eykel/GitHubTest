@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GitHubTest</string>
+    <string name="email_empty">Esse jovem moço não informou um e-mail pra gente.</string>
+    <string name="bio_empty">Esse jovem moço, não nos forneceu uma biografia.</string>
+    <string name="search_info">Comece sua busca por aqui, lembrando que pelo menos 1 parâmetro deve ser setado.</string>
+    <string name="parameter_name">%1$s in:login \u0020</string>
+    <string name="parameter_location">location:%1$s \u0020 </string>
+    <string name="parameter_language">language:%1$s \u0020</string>
+    <string name="search_error">"Falha ao pesquisar esses parâmetros.\nTenha em mente que linguagens inexistentes não retornam conteúdo."</string>
+    <string name="guide_fav_desc">"Aqui você acessa sua lista de favoritos!\n Após pesquisar, você pode favoritar alguém e mesmo offline, você pode checar seus favoritos aqui."</string>
+    <string name="guide_fav_title">Favoritos!</string>
+    <string name="guide_back_desc">"Clicando aqui para voltar, caso esteja na tela de pesquisa, você sairá do app."</string>
+    <string name="guide_back_title">Voltar/Fechar!</string>
+    <string name="guide_search_desc">Por último, hora de PESQUISAR!"</string>
+    <string name="guide_search_title">Pesquise aqui!</string>
+    <string name="search_toolbar_title">GitHub - Pesquisa</string>
+    <string name="result_toolbar_title">GitHub - Resultado</string>
+    <string name="favorite_toolbar_title">GitHub - Favoritos</string>
+    <string name="detail_toolbar_title">GitHub - Detalhes</string>
+    <string name="location_empty">Esse jovem moço, não nos forneceu sua localização.</string>
+    <string name="nickname_hint">Nickname</string>
+    <string name="location_hint">Localidade</string>
+    <string name="language_hint">Linguagem</string>
+    <string name="search_button">Pesquisar</string>
+    <string name="something_wrong_error_message">Algo deu errado, por favor, tente realizar essa ação mais tarde.</string>
+    <string name="detail_user_offline_error_message">Você esta Off, para ver detalhes desse usuário, por favor, conecte-se a uma fonte de internet.</string>
+    <string name="search_offline_error_message">Você esta Off, para pesquisar, conecte-se a uma fonte de internet.</string>
+    <string name="favorite_action_error_message">Falha ao Favoritar, por favor, tente mais tarde.</string>
+    <string name="users_not_found_message">Não foram encontrados usuários para os parâmetros informados. Por favor, tente outros parâmetros.</string>
+    <string name="favorite_not_found_message">Sem Favoritos!\nPesquise por usuários e favorite pelo menos 1 para preencher essa lista.</string>
+</resources>

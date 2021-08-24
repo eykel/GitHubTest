@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.GitUserDetailActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@color/black"
+        tools:ignore="contentDescription"
+        />
+
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="NomeDoJovem"
+
+        app:drawableLeftCompat="@drawable/ic_nickname" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="Email"
+
+        app:drawableLeftCompat="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="Localização"
+        app:drawableLeftCompat="@drawable/ic_location" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/icon_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bio" />
+
+        <TextView
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/icon_bio"
+            android:gravity="center_vertical"
+            android:text="Bioasasd asdahjsdaks haasasdasdasdasdasdasdasdkshdjas ha ahs jhash ja hajsd as ha jhash aihh auief as sefqwerfjwehwbefwe0fjqw-efuqfjoq" />
+    </RelativeLayout>
+
+
+</LinearLayout>
