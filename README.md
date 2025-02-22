@@ -1,6 +1,6 @@
 # GitHubTest
 
-##Let's talk about things that you gonna see here.
+## Let's talk about things that you gonna see here.
 
 ###### - MVVM
 ###### - Coroutines
